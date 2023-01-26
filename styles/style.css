@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Manrope:wght@500;600&family=Open+Sans:ital@0;1&family=Oswald&family=Poppins:wght@400;500&family=Roboto:ital,wght@0,500;1,500&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+
+
+
+
+
+
+body{
+    background-color: #FFFFFF;
+
+    font-family: 'EB Garamond', serif;
+
+}
+
+/* navbar */
+
+.navigation li{
+    
+    color: #707070;
+
+
+}
+.navigation li a{
+    font-size: 14px;
+    margin-right: 20px;
+    color: #707070;
+}
+
+.nav-bg{
+    background-color: #FFFFFF;
+}
+
+.login-btn{
+background-color: #B68C5A;
+    color: aliceblue;
+    border-color:beige;
+    width: 150px;
+    height: 40px;    
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+    text-align: center;
+
+}
+
+/* first section  */
+
+.main-input{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 410px;
+    height: 64px;
+    color: #A0A0A0;
+
+}
+.main-btn{
+    width: 150px;
+height: 64px;
+background-color:#B68C5A ;
+color: #FFFFFF;
+border-radius: 8px;
+border-color: rgba(255, 228, 196, 0.595);
+}
+.banner-img{
+
+    background-size: cover;
+    min-height: 80vh;
+    linear-gradient:(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),;
+
+}
+
+.banner-img p{
+    color: #E7E7E7;
+    padding-top: 0;
+    font-size: 15px;
+}
+.banner-img h1{
+    color: #FFFFFF;
+    font-size: 65px;
+  
+    padding-top: 50px;
+}
+
+/* second section */
+.legal-practice{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.legal-practice h1{
+color: #414040;
+font-size: 40px;
+}
+
+.legal-practice p{
+    color: #707070;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    width: 20%;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+.card-body h5{
+
+height: 42px;
+color: #414040;
+
+}
+
+.card-body p{
+    color: #707070;
+}
+
+
+/* main start  */
+
+.ui-client{
+    margin-top: 100px;
+}
+
+
+.ui-client p{
+    color: #707070;
+    
+    font-size: 16px;
+}
+.ui-client h1{
+    color: #414040;
+    font-size: 40px;
+}
+
+
+
+/* frequently asked quistion */
+
+
+.asked-question p{
+
+        color: #707070;
+        
+        font-size: 12px;
+    }
+
+.asked-question h1{
+    color: #414040;
+    font-size: 35px;
+}
+.bg-color{
+        background-color: #F3F3F3;
+        
+        border-radius: 8px;
+}
+.img-fluid{
+    width: 570px;
+height: 574px;
+}
+
+
+.call-us img{
+    width: 30px;
+}
+.msg-btn{
+    background-color: #B68C5A;
+    color: aliceblue;
+    border-color:beige;
+    width: 70px;
+    height: 40px;    
+    padding-top: 6px;
+    text-align: center;
+    border-radius: 8px;
+    padding-bottom: 5px;
+
+}
+
+
+/* footer section  */
+
+
+
+.f-bg{
+    background-color: black;
+    text-decoration: none;
+    
+
+}
+
+.f-bg ul li h3{
+    color: #FFFFFF;
+    font-size: 24px;
+
+}
+.f-bg li a{
+    text-decoration: none;
+    color:#CFCFCF;
+    font-size: 16px;
+}
+.f-bg ul li{
+    list-style: none;
+    color:#CFCFCF;
+    font-size: 16px;
+    
+
+}
+.f-bg ul input{
+    color: #707070;
+    font-size: 15px;
+    border-color: bisque;
+}
+.email-btn{
+
+    background-color: #B68C5A;
+    border-radius: 8px;
+    border-color:bisque;
+    color: white;
+    left: 150px;
+    bottom: 30px;
+}
+
+
+/* carusel */
+
+#carouselExampleIndicators .carusel-inner img{
+object-fit: cover;
+object-position: center;
+height: 50vh;
+overflow: hidden;
+}
+
+
+
+
+
+
+   @media screen and (max-width: 576px){
+    .main-input {
+        width: 284px;
+    }
+    .main-btn{
+        margin-bottom: 20px;
+    }
+
+
+
+   }
+   
+
+   @media screen and (min-width: 992px) {
+    .email-btn{
+        /* position: relative; */
+    }
+    
+   }
+
+   
